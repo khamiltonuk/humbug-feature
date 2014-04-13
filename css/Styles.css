@@ -1,35 +1,41 @@
-.carousel-wrapper {
+.wrapper{
+	width: 972px;
 	margin: 0 auto;
-	width: 972;
-	position: relative;
-	margin-top: 40px;
-}
-.carousel {
 	text-align: center;
-	font-family: "GothamLight", sans-serif;
 	text-transform: uppercase;
-	line-height: 19px;
-	font-size: 14px;
-	letter-spacing: 1px;
 }
-.carousel p {
-	margin-bottom: 0px;
-}
-.carousel h1 {
+h1 {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1em;
 }
-ul.humbug {
+.carousel {
+	margin-top: 40px;
+	overflow:hidden;
+	font-family: "GothamLight", sans-serif;
+	line-height: 19px;
+	font-size: 14px;
+	height: 555px;
+	letter-spacing: 1px;
+	position: relative;
+}
+.carousel p {
+	margin-bottom: 0px;
+}
+
+.humbug {
 	width: 972px;
 	height: 555px;
 	margin: 0 auto;
+	padding: 0;
+	position:absolute;
 	overflow: hidden;
 	color: #ffffff;
 }
-ul.humbug li {
+.humbug li {
 	width: 972px;
 	height: 555px;
+	float: left;
 	background: #ccc;
 	list-style: none;
 	position: relative;
@@ -37,59 +43,65 @@ ul.humbug li {
 .info {
 	text-shadow: 5px 0px 5px rgba(4, 46, 79, 0.6);
 }
-.prev, .next {
+.arrow {
 	height: 31px;
 	display: block;
 	position: absolute;
 	top: 50%;
+	margin-top: -15px;
 	z-index: 7;
 	opacity: 0.5;
+	background-repeat: no-repeat;
 	filter: alpha(opacity = 50);
 	cursor: pointer;
+	width: 79px;
 }
 .prev:hover, .next:hover {
 	opacity: 1;
 	filter: alpha(opacity = 100);
 }
 .prev {
-	width: 93px;
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/left_blue.png) no-repeat;
+	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/left_blue.png);
 	left: 10px;
 }
 .next {
-	width: 93px;
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/right_blue.png) no-repeat;
+	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/right_blue.png);
 	right: 10px;
 }
-a.bold-black:visited, a.bold-black {
-	color: #ffffff;
-}
+
 .bold-black {
 	padding: 10px 20px;
 	background: #1c142e;
 	color: #ffffff;
-	width: 221px;
-	font: 11px 'SackersGothicW01-Light';
+	width: 300px;
 	text-transform: uppercase;
 	display: block;
 	margin: 10px auto;
 	text-decoration: none;
 	text-align: center;
 	font-family: "GothamLight", sans-serif;
-	transition: all 2s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
 }
-a.bold-black:hover {
+.bold-black:visited, a.bold-black {
+	color: #ffffff;
+}
+.bold-black:hover {
 	background: white;
 	color: #718aa4;
 }
 .carousel strong {
 	font-family: "GothamMedium", sans-serif;
 }
-#position-one, #position-two, #position-three, #position-four, #position-five, #position-six {
+#position-one,
+#position-two,
+#position-three,
+#position-four,
+#position-five,
+#position-six {
 	position: absolute;
 	width: 367px;
 	line-height: 19px;
@@ -138,10 +150,10 @@ a.bold-black:hover {
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity = 60);
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
 }
 .sneak-a-peak:hover {
 	opacity: 1;
@@ -179,7 +191,6 @@ a.bold-black:hover {
 }
 #one {
 	background: url('http://static.kurtgeiger.com/media/content/kg/aw12/humbug/strip_01.jpg');
-	position: relative;
 }
 #one .info {
 	width: 353px;
@@ -202,7 +213,6 @@ a.bold-black:hover {
 	width: 22px;
 	height: 22px;
 	text-indent: -199px;
-	display: none;
 	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/info.png) transparent;
 	z-index: 100;
 }
@@ -210,8 +220,9 @@ a.bold-black:hover {
 	background: #FFFFFF;
 	text-transform: none;
 	padding: 30px;
-	left: 31px;
-	top: 71px;
+	left: 20px;
+	width: 100px;
+	top: 20px;
 	text-align: left;
 	position: absolute;
 	color: #999999;
@@ -235,40 +246,19 @@ a.bold-black:hover {
 #one, #two, #three, #four, #five {
 	background-size: contain;
 }
-#handbag-two {
-	top: -326px;
-	position: absolute;
-	left: 233px;
-}
-#handbag-three {
-	bottom: -498px;
-	left: 20px;
-	position: absolute;
-}
-#polaroid-four {
-	top: -339px;
-	position: absolute;
-	left: 568px;
-}
-#polaroid-five {
-	bottom: -350px;
-	position: absolute;
-	left: 208px;
-}
+
 .lightbox {
-	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.6);
 	z-index: 99;
 }
 .lightbox-panel {
 	width: 552px;
 	height: 392px;
-	display: none;
 	position: absolute;
 	color: #000000;
 	border: 1px solid #8c8c8e;
@@ -291,7 +281,7 @@ a.bold-black:hover {
 .lightbox-panel img {
 	border: 1px solid #000;
 }
-#plus-more {
+.plus-sign {
 	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/plus.png);
 	display: block;
 	height: 29px;
@@ -302,8 +292,62 @@ a.bold-black:hover {
 	overflow: hidden;
 	text-indent: -999px;
 	z-index: 999;
-}
-.plus-sign {
 	background-position: 0px 0px;
 }
+.plus-sign.active {
+	background-position: 0px 29px;
+}
 
+/***/
+#handbag-two {
+	left: 233px;
+}
+#handbag-three {
+	left: 20px;
+}
+#polaroid-four {
+	left: 568px;
+}
+#polaroid-five {
+	left: 208px;
+}
+.animate-down,
+.animate-up{
+	transition: all 0.4s ease;
+	position: absolute;
+}
+.animate-down{
+	top: -100%;
+}
+.current .animate-down{
+	top: 0;
+}
+.animate-up{
+	bottom: -100%;
+}
+.current .animate-up{
+	bottom: 0;
+}
+
+
+.hide {
+	display: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
