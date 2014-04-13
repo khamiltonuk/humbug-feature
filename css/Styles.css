@@ -351,3 +351,38 @@ h1 {
 .cf {
     *zoom: 1;
 }
+
+/* font face */
+
+@font-face {
+	font-family: 'GothamMedium';
+	src: url('../fonts/gothmmed-webfont.eot') no-repeat transparent;
+	src: url('../fonts/gothmmed-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gothmmed-webfont.woff') format('woff'),
+		url('../fonts/gothmmed-webfont.ttf') format('truetype'),
+		url('../fonts/gothmmed-webfont.svg#GothamMedium') format('svg') no-repeat transparent;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/gothmbok-webfont.eot') no-repeat transparent;
+	src: url('../fonts/gothmbok-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gothmbok-webfont.woff') format('woff'),
+		url('../fonts/gothmbok-webfont.ttf') format('truetype'),
+		url('../fonts/gothmbok-webfont.svg#GothamBook') format('svg') no-repeat transparent;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../fonts/gothmlig-webfont.eot') no-repeat transparent;
+	src: url('../fonts/gothmlig-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gothmlig-webfont.woff') format('woff'),
+		url('../fonts/gothmlig-webfont.ttf') format('truetype'),
+		url('../fonts/gothmlig-webfont.svg#GothamLight') format('svg') no-repeat transparent;
+	font-weight: normal;
+	font-style: normal;
+}
