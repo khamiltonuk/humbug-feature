@@ -20,7 +20,7 @@ h1 {
 	position: relative;
 }
 .carousel p {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .humbug {
@@ -41,19 +41,44 @@ h1 {
 	position: relative;
 }
 .info {
-	text-shadow: 5px 0px 5px rgba(4, 46, 79, 0.6);
+	text-shadow: 5px 0 5px rgba(4, 46, 79, 0.6);
+}
+.hide-text{
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+.clickable-png{
+	cursor: pointer;
+	display: block;
+	position: absolute;
+}
+.sneak-a-peak {
+	background: url(../imgs/sneak-a-peak.png) no-repeat;
+	top: 285px;
+	right: 66px;
+	width: 168px;
+	height: 115px;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+.sneak-a-peak:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
 }
 .arrow {
 	height: 31px;
-	display: block;
-	position: absolute;
 	top: 50%;
 	margin-top: -15px;
 	z-index: 7;
 	opacity: 0.5;
 	background-repeat: no-repeat;
 	filter: alpha(opacity = 50);
-	cursor: pointer;
+
 	width: 79px;
 }
 .prev:hover, .next:hover {
@@ -61,11 +86,11 @@ h1 {
 	filter: alpha(opacity = 100);
 }
 .prev {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/left_blue.png);
+	background: url(../imgs/left_blue.png);
 	left: 10px;
 }
 .next {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/right_blue.png);
+	background: url(../imgs/right_blue.png);
 	right: 10px;
 }
 
@@ -105,7 +130,7 @@ h1 {
 	position: absolute;
 	width: 367px;
 	line-height: 19px;
-	text-shadow: 0px 0px 5px rgba(4, 46, 79, 0.6);
+	text-shadow: 0 0 5px rgba(4, 46, 79, 0.6);
 }
 #position-one {
 	top: 186px;
@@ -137,45 +162,23 @@ h1 {
 	left: 242px;
 	width: 290px;
 }
-.sneak-a-peak {
-	/* z-index: 100000; */
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/sneak-a-peak.png) no-repeat;
-	top: 285px;
-	right: 66px;
-	text-indent: -299px;
-	width: 168px;
-	height: 115px;
-	display: block;
-	overflow: hidden;
-	position: absolute;
-	opacity: 0.6;
-	filter: alpha(opacity = 60);
-	-webkit-transition: opacity 0.2s ease-in-out;
-	-moz-transition: opacity 0.2s ease-in-out;
-	-o-transition: opacity 0.2s ease-in-out;
-	transition: opacity 0.2s ease-in-out;
-}
-.sneak-a-peak:hover {
-	opacity: 1;
-	filter: alpha(opacity = 100);
-}
 .number-one {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/1.png) no-repeat;
+	background: url(../imgs/1.png) no-repeat;
 }
 .number-two {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/2.png) no-repeat;
+	background: url(../imgs/2.png) no-repeat;
 }
 .number-three {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/3.png) no-repeat;
+	background: url(../imgs/3.png) no-repeat;
 }
 .number-four {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/4.png) no-repeat;
+	background: url(../imgs/4.png) no-repeat;
 }
 .number-five {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/5.png) no-repeat;
+	background: url(../imgs/5.png) no-repeat;
 }
 .number-six {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/6.png) no-repeat;
+	background: url(../imgs/6.png) no-repeat;
 }
 
 .number-one, .number-two, .number-three, .number-four, .number-five, .number-six {
@@ -190,7 +193,7 @@ h1 {
 	top: -70px;
 }
 #one {
-	background: url('http://static.kurtgeiger.com/media/content/kg/aw12/humbug/strip_01.jpg');
+	background: url('../imgs/strip_01.jpg');
 }
 #one .info {
 	width: 353px;
@@ -202,9 +205,24 @@ h1 {
 #one h2 {
 	font-weight: normal;
 	font-size: 1em;
-	margin: 10px 0px 20px;
+	margin: 10px 0 20px;
 	color: #ffffff;
 	font-family: "GothamMedium", sans-serif;
+}
+#two {
+	background: url(../imgs/strip_02.jpg);
+}
+#three {
+	background: url(../imgs/strip_03.jpg);
+}
+#four {
+	background: url(../imgs/strip_04.jpg);
+}
+#five {
+	background: url(../imgs/strip_05.jpg);
+}
+#one, #two, #three, #four, #five {
+	background-size: contain;
 }
 .info-icon {
 	position: absolute;
@@ -213,7 +231,7 @@ h1 {
 	width: 22px;
 	height: 22px;
 	text-indent: -199px;
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/info.png) transparent;
+	background: url(../imgs/info.png) transparent;
 	z-index: 100;
 }
 .info-text {
@@ -227,32 +245,18 @@ h1 {
 	position: absolute;
 	color: #999999;
 	font-size: 11px;
-	-webkit-box-shadow: 5px 5px 5px 0px rgba(81, 101, 121, 0.5);
-	box-shadow: 5px 5px 5px 0px rgba(81, 101, 121, 0.5);
+	-moz-box-shadow: 5px 5px 5px 0 rgba(81, 101, 121, 0.5);
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(81, 101, 121, 0.5);
+	box-shadow: 5px 5px 5px 0 rgba(81, 101, 121, 0.5);
 	z-index: 99;
 }
-#two {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/strip_02.jpg);
-}
-#three {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/strip_03.jpg);
-}
-#four {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/strip_04.jpg);
-}
-#five {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/strip_05.jpg);
-}
-#one, #two, #three, #four, #five {
-	background-size: contain;
-}
-
 .lightbox {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
 	z-index: 99;
 }
@@ -268,8 +272,9 @@ h1 {
 	margin-left: -321px;
 	margin-top: -241px;
 	background-color: #fff;
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(81, 101, 121, 0.5);
-	box-shadow: 0px 0px 5px 0px rgba(81, 101, 121, 0.5);
+	-webkit-box-shadow: 0 0 5px 0 rgba(81, 101, 121, 0.5);
+	-moz-box-shadow: 0 0 5px 0 rgba(81, 101, 121, 0.5);
+	box-shadow: 0 0 5px 0 rgba(81, 101, 121, 0.5);
 	z-index: 100;
 }
 .lightbox-panel p {
@@ -282,20 +287,16 @@ h1 {
 	border: 1px solid #000;
 }
 .plus-sign {
-	background: url(http://static.kurtgeiger.com/media/content/kg/aw12/humbug/plus.png);
-	display: block;
+	background: url(../imgs/plus.png);
 	height: 29px;
 	width: 29px;
-	position: absolute;
 	right: 108px;
 	top: 236px;
-	overflow: hidden;
-	text-indent: -999px;
 	z-index: 999;
-	background-position: 0px 0px;
+	background-position: 0 0;
 }
 .plus-sign.active {
-	background-position: 0px 29px;
+	background-position: 0 29px;
 }
 
 /***/
@@ -347,10 +348,10 @@ h1 {
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
- */
+
 .cf {
     *zoom: 1;
-}
+}*/
 
 /* font face */
 
