@@ -13,16 +13,20 @@ $(document).ready(function() {
 	sliding_bit.css({
 		'width': sliding_bit_width
 	});
+	slides_panes.eq(0).addClass('current');
+
 
 	function openMenu() {
 		frame.on('click', function (e) {
 			if (e.target.id == "next") {
-				movement(++count);
 				$('.humbug li:last').after($('.humbug li:first'));
+				movement(++count);
+
 			}
 			if (e.target.id == "prev") {
-				movement(--count);
 				$('.humbug li:first').before($('.humbug li:last'));
+				movement(--count);
+
 			}
 			if (e.target.id == "info"){
 				$('.info-text').toggleClass('hide');
@@ -47,10 +51,11 @@ $(document).ready(function() {
 
 
         sliding_bit.stop(true,true).animate({
-            'left': -distance
+            //'left': -distance
         },function(){
 			slides_panes.removeClass('current');
-			slides_panes.eq(count).addClass('current');
+			slides_panes.eq(0).addClass('current');
+			//slides_panes.eq(count).addClass('current');
 		});
 
     }
