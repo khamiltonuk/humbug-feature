@@ -11,7 +11,7 @@ $(document).ready(function() {
 		distance = 0;
 
 	sliding_bit.css({
-	  'width': sliding_bit_width
+		'width': sliding_bit_width
 	});
 
 	function openMenu() {
