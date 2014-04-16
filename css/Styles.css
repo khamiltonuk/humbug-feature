@@ -11,9 +11,10 @@ h1 {
   font-size: 14px;
   font-weight: normal;
   line-height: 1em;
+  font-family: "GothamLight", sans-serif;
 }
 
-/* line 16, ../sass/Styles.scss */
+/* line 17, ../sass/Styles.scss */
 .carousel {
   margin-top: 40px;
   overflow: hidden;
@@ -25,12 +26,12 @@ h1 {
   position: relative;
 }
 
-/* line 26, ../sass/Styles.scss */
+/* line 27, ../sass/Styles.scss */
 .carousel p {
   margin-bottom: 0;
 }
 
-/* line 30, ../sass/Styles.scss */
+/* line 31, ../sass/Styles.scss */
 .humbug {
   width: 972px;
   height: 555px;
@@ -41,7 +42,7 @@ h1 {
   color: #ffffff;
 }
 
-/* line 39, ../sass/Styles.scss */
+/* line 40, ../sass/Styles.scss */
 .humbug li {
   width: 972px;
   height: 555px;
@@ -51,26 +52,26 @@ h1 {
   position: relative;
 }
 
-/* line 47, ../sass/Styles.scss */
+/* line 48, ../sass/Styles.scss */
 .info {
   text-shadow: 5px 0 5px rgba(4, 46, 79, 0.6);
 }
 
-/* line 50, ../sass/Styles.scss */
+/* line 51, ../sass/Styles.scss */
 .hide-text {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
 }
 
-/* line 55, ../sass/Styles.scss */
+/* line 56, ../sass/Styles.scss */
 .clickable-png {
   cursor: pointer;
   display: block;
   position: absolute;
 }
 
-/* line 60, ../sass/Styles.scss */
+/* line 61, ../sass/Styles.scss */
 .sneak-a-peak {
   background: url(../imgs/sneak-a-peak.png) no-repeat;
   top: 285px;
@@ -88,13 +89,13 @@ h1 {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-/* line 70, ../sass/Styles.scss */
+/* line 71, ../sass/Styles.scss */
 .sneak-a-peak:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 76, ../sass/Styles.scss */
+/* line 77, ../sass/Styles.scss */
 .arrow {
   height: 31px;
   top: 50%;
@@ -105,25 +106,25 @@ h1 {
   filter: alpha(opacity=50);
   width: 79px;
 }
-/* line 85, ../sass/Styles.scss */
+/* line 86, ../sass/Styles.scss */
 .arrow:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 91, ../sass/Styles.scss */
+/* line 92, ../sass/Styles.scss */
 .prev {
   background: url(../imgs/left_blue.png);
   left: 10px;
 }
 
-/* line 95, ../sass/Styles.scss */
+/* line 96, ../sass/Styles.scss */
 .next {
   background: url(../imgs/right_blue.png);
   right: 10px;
 }
 
-/* line 100, ../sass/Styles.scss */
+/* line 101, ../sass/Styles.scss */
 .bold-black {
   padding: 10px 20px;
   background: #1c142e;
@@ -144,23 +145,23 @@ h1 {
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-/* line 113, ../sass/Styles.scss */
+/* line 114, ../sass/Styles.scss */
 .bold-black:hover {
   background: white;
   color: #718aa4;
 }
 
-/* line 118, ../sass/Styles.scss */
+/* line 119, ../sass/Styles.scss */
 .bold-black:visited, a.bold-black {
   color: #ffffff;
 }
 
-/* line 121, ../sass/Styles.scss */
+/* line 122, ../sass/Styles.scss */
 .carousel strong {
   font-family: "GothamMedium", sans-serif;
 }
 
-/* line 129, ../sass/Styles.scss */
+/* line 130, ../sass/Styles.scss */
 #position-one,
 #position-two,
 #position-three,
@@ -173,33 +174,33 @@ h1 {
   text-shadow: 0 0 5px rgba(4, 46, 79, 0.6);
 }
 
-/* line 135, ../sass/Styles.scss */
+/* line 136, ../sass/Styles.scss */
 #position-one {
   top: 186px;
   left: 74px;
 }
 
-/* line 139, ../sass/Styles.scss */
+/* line 140, ../sass/Styles.scss */
 #position-two {
   top: 400px;
   left: 473px;
   width: 367px;
 }
 
-/* line 144, ../sass/Styles.scss */
+/* line 145, ../sass/Styles.scss */
 #position-three {
   top: 140px;
   left: 227px;
   width: 283px;
 }
 
-/* line 149, ../sass/Styles.scss */
+/* line 150, ../sass/Styles.scss */
 #position-four {
   top: 438px;
   left: 559px;
 }
 
-/* line 153, ../sass/Styles.scss */
+/* line 154, ../sass/Styles.scss */
 #position-five {
   top: 152px;
   left: 93px;
@@ -208,44 +209,44 @@ h1 {
   text-shadow: none;
 }
 
-/* line 160, ../sass/Styles.scss */
+/* line 161, ../sass/Styles.scss */
 #position-six {
   top: 228px;
   left: 242px;
   width: 290px;
 }
 
-/* line 165, ../sass/Styles.scss */
+/* line 166, ../sass/Styles.scss */
 .number-one {
   background: url(../imgs/1.png) no-repeat;
 }
 
-/* line 168, ../sass/Styles.scss */
+/* line 169, ../sass/Styles.scss */
 .number-two {
   background: url(../imgs/2.png) no-repeat;
 }
 
-/* line 171, ../sass/Styles.scss */
+/* line 172, ../sass/Styles.scss */
 .number-three {
   background: url(../imgs/3.png) no-repeat;
 }
 
-/* line 174, ../sass/Styles.scss */
+/* line 175, ../sass/Styles.scss */
 .number-four {
   background: url(../imgs/4.png) no-repeat;
 }
 
-/* line 177, ../sass/Styles.scss */
+/* line 178, ../sass/Styles.scss */
 .number-five {
   background: url(../imgs/5.png) no-repeat;
 }
 
-/* line 180, ../sass/Styles.scss */
+/* line 181, ../sass/Styles.scss */
 .number-six {
   background: url(../imgs/6.png) no-repeat;
 }
 
-/* line 184, ../sass/Styles.scss */
+/* line 185, ../sass/Styles.scss */
 .number-one, .number-two, .number-three, .number-four, .number-five, .number-six {
   text-indent: -99px;
   width: 55px;
@@ -258,12 +259,12 @@ h1 {
   top: -70px;
 }
 
-/* line 195, ../sass/Styles.scss */
+/* line 196, ../sass/Styles.scss */
 #one {
   background: url("../imgs/strip_01.jpg");
 }
 
-/* line 198, ../sass/Styles.scss */
+/* line 199, ../sass/Styles.scss */
 #one .info {
   width: 353px;
   position: absolute;
@@ -272,7 +273,7 @@ h1 {
   top: 200px;
 }
 
-/* line 205, ../sass/Styles.scss */
+/* line 206, ../sass/Styles.scss */
 #one h2 {
   font-weight: normal;
   font-size: 1em;
@@ -281,32 +282,32 @@ h1 {
   font-family: "GothamMedium", sans-serif;
 }
 
-/* line 212, ../sass/Styles.scss */
+/* line 213, ../sass/Styles.scss */
 #two {
   background: url(../imgs/strip_02.jpg);
 }
 
-/* line 215, ../sass/Styles.scss */
+/* line 216, ../sass/Styles.scss */
 #three {
   background: url(../imgs/strip_03.jpg);
 }
 
-/* line 218, ../sass/Styles.scss */
+/* line 219, ../sass/Styles.scss */
 #four {
   background: url(../imgs/strip_04.jpg);
 }
 
-/* line 221, ../sass/Styles.scss */
+/* line 222, ../sass/Styles.scss */
 #five {
   background: url(../imgs/strip_05.jpg);
 }
 
-/* line 224, ../sass/Styles.scss */
+/* line 225, ../sass/Styles.scss */
 #one, #two, #three, #four, #five {
   background-size: contain;
 }
 
-/* line 227, ../sass/Styles.scss */
+/* line 228, ../sass/Styles.scss */
 .info-icon {
   position: absolute;
   left: 20px;
@@ -318,7 +319,7 @@ h1 {
   z-index: 100;
 }
 
-/* line 237, ../sass/Styles.scss */
+/* line 238, ../sass/Styles.scss */
 .info-text {
   background: #FFFFFF;
   text-transform: none;
@@ -336,7 +337,7 @@ h1 {
   z-index: 99;
 }
 
-/* line 253, ../sass/Styles.scss */
+/* line 254, ../sass/Styles.scss */
 .lightbox {
   position: absolute;
   top: 0;
@@ -348,7 +349,7 @@ h1 {
   z-index: 99;
 }
 
-/* line 263, ../sass/Styles.scss */
+/* line 264, ../sass/Styles.scss */
 .lightbox-panel {
   width: 552px;
   height: 392px;
@@ -367,7 +368,7 @@ h1 {
   z-index: 100;
 }
 
-/* line 280, ../sass/Styles.scss */
+/* line 281, ../sass/Styles.scss */
 .lightbox-panel p {
   width: 472px;
   font-size: 14px;
@@ -375,12 +376,12 @@ h1 {
   margin-bottom: 25px;
 }
 
-/* line 286, ../sass/Styles.scss */
+/* line 287, ../sass/Styles.scss */
 .lightbox-panel img {
   border: 1px solid #000;
 }
 
-/* line 289, ../sass/Styles.scss */
+/* line 290, ../sass/Styles.scss */
 .plus-sign {
   background: url(../imgs/plus.png);
   height: 29px;
@@ -391,33 +392,33 @@ h1 {
   background-position: 0 0;
 }
 
-/* line 298, ../sass/Styles.scss */
+/* line 299, ../sass/Styles.scss */
 .plus-sign.active {
   background-position: 0 29px;
 }
 
 /***/
-/* line 303, ../sass/Styles.scss */
+/* line 304, ../sass/Styles.scss */
 #handbag-two {
   left: 233px;
 }
 
-/* line 306, ../sass/Styles.scss */
+/* line 307, ../sass/Styles.scss */
 #handbag-three {
   left: 20px;
 }
 
-/* line 309, ../sass/Styles.scss */
+/* line 310, ../sass/Styles.scss */
 #polaroid-four {
   left: 568px;
 }
 
-/* line 312, ../sass/Styles.scss */
+/* line 313, ../sass/Styles.scss */
 #polaroid-five {
   left: 208px;
 }
 
-/* line 316, ../sass/Styles.scss */
+/* line 317, ../sass/Styles.scss */
 .animate-down,
 .animate-up {
   -webkit-transition-property: all;
@@ -431,32 +432,32 @@ h1 {
   position: absolute;
 }
 
-/* line 321, ../sass/Styles.scss */
+/* line 322, ../sass/Styles.scss */
 .animate-down {
   top: -100%;
 }
 
-/* line 324, ../sass/Styles.scss */
+/* line 325, ../sass/Styles.scss */
 .current .animate-down {
   top: 0;
 }
 
-/* line 327, ../sass/Styles.scss */
+/* line 328, ../sass/Styles.scss */
 .animate-up {
   bottom: -100%;
 }
 
-/* line 330, ../sass/Styles.scss */
+/* line 331, ../sass/Styles.scss */
 .current .animate-up {
   bottom: 0;
 }
 
-/* line 335, ../sass/Styles.scss */
+/* line 336, ../sass/Styles.scss */
 .hide {
   display: none;
 }
 
-/* line 340, ../sass/Styles.scss */
+/* line 341, ../sass/Styles.scss */
 .cf:before,
 .cf:after {
   content: " ";
@@ -465,7 +466,7 @@ h1 {
   /* 2 */
 }
 
-/* line 345, ../sass/Styles.scss */
+/* line 346, ../sass/Styles.scss */
 .cf:after {
   clear: both;
 }
@@ -480,16 +481,16 @@ h1 {
 /* font face */
 @font-face {
   font-family: 'GothamMedium';
-  src: url("../fonts/gothmmed-webfont.eot") no-repeat transparent;
-  src: url("../fonts/gothmmed-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmmed-webfont.woff") format("woff"), url("../fonts/gothmmed-webfont.ttf") format("truetype"), url("../fonts/gothmmed-webfont.svg#GothamMedium") format("svg") no-repeat transparent;
+  src: url("../fonts/gothmmed-webfont.eot");
+  src: url("../fonts/gothmmed-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmmed-webfont.woff") format("woff"), url("../fonts/gothmmed-webfont.ttf") format("truetype"), url("../fonts/gothmmed-webfont.svg#GothamMedium") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'GothamBook';
-  src: url("../fonts/gothmbok-webfont.eot") no-repeat transparent;
-  src: url("../fonts/gothmbok-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmbok-webfont.woff") format("woff"), url("../fonts/gothmbok-webfont.ttf") format("truetype"), url("../fonts/gothmbok-webfont.svg#GothamBook") format("svg") no-repeat transparent;
+  src: url("../fonts/gothmbok-webfont.eot");
+  src: url("../fonts/gothmbok-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmbok-webfont.woff") format("woff"), url("../fonts/gothmbok-webfont.ttf") format("truetype"), url("../fonts/gothmbok-webfont.svg#GothamBook") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -505,6 +506,14 @@ h1 {
 	font-style: normal;
 }*/
 @font-face {
-  font-family: "GothamLight";
-  src: url('/css/fonts/../fonts/gothmlig-webfont.eot') format('embedded-opentype'), url('/css/fonts/../fonts/gothmlig-webfont.woff') format('woff'), url('/css/fonts/../fonts/gothmlig-webfont.ttf') format('truetype'), url('/css/fonts/../fonts/gothmlig-webfont.svg') format('svg');
+  font-family: 'GothamLight';
+  src: url("../fonts/gothmlig-webfont.eot");
+  src: url("../fonts/gothmlig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothmlig-webfont.woff") format("woff"), url("../fonts/gothmlig-webfont.ttf") format("truetype"), url("../fonts/gothmlig-webfont.svg#GothamLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
+
+/*
+@include font-face('GothamLight', font-files('../fonts/gothmlig-webfont.eot',
+	'../fonts/gothmlig-webfont.woff', '../fonts/gothmlig-webfont.ttf',
+	'../fonts/gothmlig-webfont.svg'));*/
