@@ -355,7 +355,7 @@ h1 {
     *zoom: 1;
 }*/
 
-/* font face */
+// font face
 @font-face {
 	font-family: 'GothamMedium';
 	src: url('../fonts/gothmmed-webfont.eot');
@@ -378,27 +378,23 @@ h1 {
 	font-style: normal;
 }
 
-/*@font-face {
+@font-face {
 	font-family: 'GothamLight';
-	src: url('../fonts/gothmlig-webfont.eot') no-repeat transparent;
+	src: url('../fonts/gothmlig-webfont.eot');
 	src: url('../fonts/gothmlig-webfont.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/gothmlig-webfont.woff') format('woff'),
 		url('../fonts/gothmlig-webfont.ttf') format('truetype'),
-		url('../fonts/gothmlig-webfont.svg#GothamLight') format('svg') no-repeat transparent;
+		url('../fonts/gothmlig-webfont.svg#GothamLight') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}*/
-@font-face {
-    font-family: 'GothamLight';
-    src: url('../fonts/gothmlig-webfont.eot');
-    src: url('../fonts/gothmlig-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/gothmlig-webfont.woff') format('woff'),
-         url('../fonts/gothmlig-webfont.ttf') format('truetype'),
-         url('../fonts/gothmlig-webfont.svg#GothamLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
+
 /*
-@include font-face('GothamLight', font-files('../fonts/gothmlig-webfont.eot',
-	'../fonts/gothmlig-webfont.woff', '../fonts/gothmlig-webfont.ttf',
-	'../fonts/gothmlig-webfont.svg'));*/
+@include font-face("Blooming Grove", font-files("examples/bgrove.ttf", "examples/bgrove.otf"));
+
+
+
+
+@include font-face('GothamLight', font-files('../../../fonts/gothmlig-webfont.eot',
+	'../../../fonts/gothmlig-webfont.woff', '../../../fonts/gothmlig-webfont.ttf',
+	'../../../fonts/gothmlig-webfont.svg'));*/
