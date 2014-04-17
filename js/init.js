@@ -47,16 +47,18 @@ $(document).ready(function() {
 		//arrows.removeClass('disable');
 
         var distance = slide_width * count;
+		slides_panes.removeClass('current');
 
 
 
         sliding_bit.stop(true,true).animate({
             //'left': -distance
         },function(){
-			slides_panes.removeClass('current');
-			slides_panes.eq(0).addClass('current');
-			//slides_panes.eq(count).addClass('current');
-		});
+
+			//slides_panes.eq(1).addClass('current');
+			slides_panes.eq(count).addClass('current');
+			console.log(count)
+;		});
 
     }
 
